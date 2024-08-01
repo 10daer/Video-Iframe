@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Embed Code Generator</title>
+  </head>
+  <body>
+    <h1>Embed Code Generator</h1>
+    <form id="embedForm">
+      <label for="videoId">Video ID:</label>
+      <input type="text" id="videoId" name="videoId" required /><br /><br />
+      <label for="width">Width:</label>
+      <input
+        type="text"
+        id="width"
+        name="width"
+        placeholder="Optional"
+      /><br /><br />
+      <label for="height">Height:</label>
+      <input
+        type="text"
+        id="height"
+        name="height"
+        placeholder="Optional"
+      /><br /><br />
+      <button type="submit">Generate Embed Code</button>
+    </form>
+    <h2>Embed Code:</h2>
+    <pre id="embedCode"></pre>
+
+    <script src="script.js"></script>
+  </body>
+</html>
