@@ -8,7 +8,7 @@ document
 
     const embedCode = `
 <div class="video-testimonial-embed">
-<iframe src="https://yourvideoplatform.com/embed/${videoId}" width="${width}" height="${height}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://https://youtu.be/${videoId}" width="${width}" height="${height}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
     `;
 
